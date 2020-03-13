@@ -1,0 +1,142 @@
+/*
+#E5B0A3
+#E0A0A7
+#C9B59A
+#F9EAE9
+#BF7C59
+#FBF5EB
+#626363
+font-family: 'Montserrat', sans-serif;
+font-family: 'Clicker Script', cursive;
+font-family: 'Cormorant Garamond', serif;
+*/
+body {
+  margin: 0;
+  background-color: #FBF5EB;
+  font-family: 'Montserrat', sans-serif;
+  color: #626363;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 7rem;
+  font-family: 'Clicker Script', cursive;
+  font-weight: lighter;
+  /* line-height: 2; */
+}
+
+h2 {
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: lighter;
+  /* line-height: 2; */
+}
+
+h3 {
+  color: #BF7C59;
+}
+
+/* img {} */
+a {
+  color: #BF7C59;
+  margin: 0.7rem 1.3rem;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bolder;
+}
+
+hr {
+  border: 4px #E0A0A7;
+  /* border-color: ; */
+  border-style: dotted;
+  border-bottom: none;
+  width: 10%;
+  margin: 4% auto;
+}
+.topheader {
+  background-color: #F9EAE9;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  padding: 2% 0;
+  /* margin: 3rem; */
+}
+
+.profile-pic {
+  width: 10%;
+}
+
+.icon-html {
+  width: 5rem;
+  float: left;
+  margin: 2rem 2rem 2rem auto;
+}
+
+.icon-css {
+  width: 5rem;
+  float: right;
+  margin: 2rem auto 2rem 2rem;
+}
+
+
+
+.middle {
+  padding: 20% 5% 5% 5%;
+  background-color: #E0A0A7;
+}
+
+.profile {
+  margin-top: 2rem;
+}
+
+.middle-container {
+  padding: 5%;
+}
+
+.skills {
+  padding: 5% 0 0 0;
+}
+
+.skill-row {
+  /* display: inline-block; */
+  text-align: left;
+  line-height: 2;
+  margin: auto;
+  width: 50%;
+}
+
+.button {
+  border-radius: 20px;
+  color: #626363;
+  /* font-size: ; */
+  font-weight: lighter;
+  padding: 1rem;
+  background-color: #E0A0AA;
+  box-shadow: 1px 1px 2px 1px #626363;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 1rem;
+}
+
+.social-media {
+  margin: auto;
+  width: 50%;
+  text-align: left;
+}
+
+.contact-icon {
+  vertical-align: middle;
+  height: 35px;
+  margin:0 0.3rem;
+}
+
+.bottom-container {
+  margin: 0;
+  padding: 2% 0 2%;
+  background-color: #F9EAE9;
+}
